@@ -20,7 +20,6 @@ public class KeyInput extends KeyAdapter{
 	public void keyPressed(KeyEvent e) {
 		// get pressed keys data
 		int key = e.getKeyCode();
-		System.out.println(key);
 		
 		if (key == KeyEvent.VK_UP) {
 			p2.switchDirection(-1);
@@ -53,7 +52,6 @@ public class KeyInput extends KeyAdapter{
 		}
 		
 		if (key == KeyEvent.VK_DOWN) {
-			System.out.println("downnn");
 			down2 = false;
 		}
 		

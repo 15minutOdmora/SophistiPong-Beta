@@ -63,7 +63,7 @@ public class Player extends Main{
 		// ball collision with left player
 		if (left) {
 			if (ballX <= x + width) {
-				if ((ballY + b.size / 2) >= y & (ballY + b.size / 2) <= y + height) {
+				if ((ballY + b.size) >= y & ballY  <= y + height) {
 					b.collisionLeft();
 					b.spin(left);
 				}
@@ -72,7 +72,7 @@ public class Player extends Main{
 		// ball collision with right player
 		} else {
 			if (ballX + b.size >= x - width) {
-				if (ballY + b.size >= y & (ballY + b.size / 2) <= y + height) {
+				if (ballY + b.size >= y & ballY <= y + height) {
 					b.collisionRight();
 					b.spin(left);
 				}
