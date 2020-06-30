@@ -5,9 +5,9 @@ Klasična igra Pong rekreirana v Javi.
 
 Igra je sestavljena iz dveh igralcev, žogice in igrišča. Cilj igre je dati 'gol' nasprotniku, tako, da se žogica dotakne stranice za nasprotnikom.
 
-Igra vsebuje nekaj napak in bi lahko rekli, da je to 'alpha' verzija.
+Igra vsebuje nekaj napak zato bi lahko rekli, da je to 'beta' verzija.
 
-V igro bi lahko izbolšali na naslednje načine:
+Igro bi lahko izboljšali na naslednje načine:
 - Igralci bi se lahko premikali tudi po x-smeri
 - Natančnejši odboji 
 - Dodatki ali 'Powerups'
@@ -33,8 +33,8 @@ Tukaj lahko nastavimo nekaj spremenljivk in sicer:
 
 Nekaj posebnosti v igri:
 - Žoga je definirana parametrično, sestavljena iz spremenljivk Fi(kot) in v(Hitrost), pri odbojih spreminjamo le kot
-- Igra deluje ne odvisno na spremenjene velikosti 
-- Če se igralec ob odboju z žogo premika v določeno smer to vpliva na odbojni kot (npr. igralec se premika navzgor => odbojni kot bo nekoliko bolj gor usmerjen), in je tudi nastavljiv(Rebound Speed)
+- Igra deluje neodvisno na spremenjene velikosti 
+- Če se igralec ob odboju z žogo premika v določeno smer to vpliva na odbojni kot (npr. igralec se premika navzgor => odbojni kot bo usmerjen nekoliko bolj gor), in je tudi nastavljiv(Rebound Speed)
 
 
 
