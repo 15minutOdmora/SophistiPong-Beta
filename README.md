@@ -32,7 +32,7 @@ Tukaj lahko nastavimo nekaj spremenljivk in sicer:
 ![Game](https://github.com/15minutOdmora/SophistiPong-Beta/blob/master/Game.png)
 
 Nekaj posebnosti v igri:
-- Žoga je definirana parametrično, sestavljena iz spremenljivk Fi(kot) in v(Hitrost), pri odbojih spreminjamo kot
+- Žoga je definirana parametrično, sestavljena iz spremenljivk Fi(kot) in v(Hitrost), pri odbojih spreminjamo le kot
 - Igra deluje ne odvisno na spremenjene velikosti 
 - Če se igralec ob odboju z žogo premika v določeno smer to vpliva na odbojni kot (npr. igralec se premika navzgor => odbojni kot bo nekoliko bolj gor usmerjen), katerega lahko tudi nastavimo.
 
